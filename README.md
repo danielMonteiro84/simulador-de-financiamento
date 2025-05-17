@@ -56,7 +56,7 @@ A aplicação foi projetada para funcionar bem tanto em **desktop** quanto em **
 
 ---
 
-### 🔧 Rodando localmente (sem Docker)
+### 🔧 Rodando localmente 
 
 Clone o repositório:
 
