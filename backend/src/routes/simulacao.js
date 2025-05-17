@@ -31,10 +31,12 @@ router.post("/", (req, res) => {
     (total_a_guardar / (anos_contrato * 12)).toFixed(2)
   );
 
-  res.json({
+  res.status(200).json({
     valor_entrada,
     valor_financiado,
     total_a_guardar,
     parcela_mensal,
   });
 });
+
+export default router;

@@ -6,6 +6,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/simulacao", simulacaoRouter);
+app.use("/api/simulacao", simulacaoRouter);
 
 export default app;
